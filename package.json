@@ -1,5 +1,5 @@
 {
-  "name": "dotenv-generator",
+  "name": "@bjhale/dotenv-dumper",
   "type": "commonjs",
   "version": "1.0.0",
   "description": "Generates a .env file from environment variables. Usefull for pipelines.",
@@ -7,8 +7,19 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bjhale/dotenv-dumper.git"
+  },
+  "author": "Billy Hale <bjhale@gmail.com>",
   "license": "ISC",
+  "bin": {
+    "dotenv-dumper": "./cli.js"
+  },
+  "bugs": {
+    "url": "https://github.com/bjhale/dotenv-dumper/issues"
+  },
+  "homepage": "https://githubs.com/bjhale/dotenv-dumper",
   "dependencies": {
     "dotenv-parser-serializer": "^1.0.2",
     "remove-blank-lines": "^1.4.1",
