@@ -19,7 +19,7 @@ const argv = yargs(hideBin(process.argv))
     })
     .option('required', {
         alias: 'r',
-        describe: 'Requires a specific variable to exist in the environment.',
+        describe: 'Requires a specific variable to exist in the environment, can be passed more than once to require multiple variables.',
         type: 'string'
     })
     .argv;
